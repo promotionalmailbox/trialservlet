@@ -32,6 +32,9 @@ public class Index extends HttpServlet {
 	out.println("<form action='Display.view' method='post'>");
 	out.println("Username");
 	out.println("<input type='text' name='username'>");
+	out.println("Password");
+	out.println("<input type='text' name='password'>");
+	
 	out.println("<input type='submit' value='signup'>");
 
 	out.println("</form>");
