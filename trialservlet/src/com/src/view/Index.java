@@ -28,6 +28,8 @@ public class Index extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	PrintWriter out =response.getWriter();
 	out.println("<html>");
+	out.println("<head>");
+	out.println("</head>");
 	out.println("<body>");
 	out.println("<form action='Display.view' method='post'>");
 	out.println("Username");
